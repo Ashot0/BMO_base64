@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>base64 BMO</title>
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+	<!-- Кодировка -->
+	<meta charset="UTF-8">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="main">
+			<div class="bmo">
+				<textarea name="text" value=" " id="text-to-encode"></textarea>
+				<div class="btns">
+					<div class="btns-up">
+						<button type="button" class="black-btn"></button>
+						<button type="button" class="black-blue-btn"></button>
+					</div>
+					<div class="btns-down">
+						<div class="btns-left">
+							<div class="encode-block"><button class="encode" onclick="encode()"
+									type="button">encode</button></div>
+							<div class="btns-right-down">
+								<button type="button" class="blue-btn"></button>
+								<button type="button" class="blue-black-btn"></button>
+							</div>
+						</div>
+						<div class="btns-right">
+							<div class="btns-right-up">
+								<button type="button" class="blue-triangle"> </button>
+								<button type="button" class="green-cirk"></button>
+							</div>
+							<button class="decode encode-style" onclick="decode()" type="button">decode</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="bmo">
+				<div class="result-display display"><span class=""></span></div>
+				<div class="btns">
+					<div class="btns-up">
+						<button type="button" class="black-btn"></button>
+						<button type="button" class="black-blue-btn"></button>
+					</div>
+					<div class="btns-down">
+						<div class="btns-left">
+							<div class="encode-block"><button class="encode" onclick="encode()"
+									type="button">encode</button></div>
+							<div class="btns-right-down">
+								<button type="button" class="blue-btn"></button>
+								<button type="button" class="blue-black-btn"></button>
+							</div>
+						</div>
+						<div class="btns-right">
+							<div class="btns-right-up">
+								<button type="button" class="blue-triangle"> </button>
+								<button type="button" class="green-cirk"></button>
+							</div>
+							<button class="decode encode-style" onclick="decode()" type="button">decode</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
